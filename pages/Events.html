@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <title>Student</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:300,400,500,600,700,900" />
+  <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link id="pagestyle" href="../assets/css/material-dashboard.css?v=3.2.0" rel="stylesheet" />
+  
+  <style>
+    /* Apply Poppins font to the entire document */
+    body {
+      font-family: 'Poppins', sans-serif !important;
+    }
+    /* Ensure all elements inherit the font family */
+    * {
+      font-family: inherit;
+    }
+  </style>
+</head>
+
+
+<body class="g-sidenav-show  bg-gray-100">
+
+  <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-radius-lg fixed-start ms-2  bg-white my-2" id="sidenav-main">
+    <div class="sidenav-header">
+      <i class="fas fa-times p-3 cursor-pointer text-dark opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
+      <a class="navbar-brand px-4 py-3 m-0" href="" target="_blank">
+        <img src="../assets/img/logo1.jpg" class="navbar-brand-img" width="26" height="26" alt="main_logo">
+        <span class="ms-1 text-sm text-dark">AIcademy</span>
+      </a>
+    </div>
+    <hr class="horizontal dark mt-0 mb-2">
+    <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="../pages/index.html">
+            <i class="material-symbols-rounded opacity-5">dashboard</i>
+            <span class="nav-link-text ms-1">Dashboard
+            </span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="../pages/Events.html">
+            <i class="material-symbols-rounded opacity-5">events</i>
+            <span class="nav-link-text ms-1">Events
+            </span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="../pages/tables.html">
+            <i class="material-symbols-rounded opacity-5">table_view</i>
+            <span class="nav-link-text ms-1">Activities</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="../pages/stu.html">
+            <i class="material-symbols-rounded opacity-5">ent</i>
+            <span class="nav-link-text ms-1">Students</span>
+          </a>
+        </li>
+        </style>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="../pages/Contact.html">
+            <i class="material-symbols-rounded opacity-5">phone</i>
+            <span class="nav-link-text ms-1">Contact Us</span>
+          </a>
+        </li>
+        <li class="nav-item mt-3">
+          <h6 class="ps-4 ms-2 text-uppercase text-xs text-dark font-weight-bolder opacity-5">Account pages</h6>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="../pages/profile.html">
+            <i class="material-symbols-rounded opacity-5">person</i>
+            <span class="nav-link-text ms-1">About Us</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="../pages/sign-in.html">
+            <i class="material-symbols-rounded opacity-5">login</i>
+            <span class="nav-link-text ms-1">Sign In</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="../pages/sign-up.html">
+            <i class="material-symbols-rounded opacity-5">assignment</i>
+            <span class="nav-link-text ms-1">Sign Up</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="sidenav-footer position-absolute w-100 bottom-0 ">
+      <div class="mx-3">
+      </div>
+    </div>
+  </aside>
+  <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+    <!-- Navbar -->
+    <nav class="navbar navbar-main navbar-expand-lg px-0 mx-3 shadow-none border-radius-xl" id="navbarBlur" data-scroll="true">
+      <div class="container-fluid py-1 px-3">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
+            <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Pages</a></li>
+            <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Dashboard</li>
+          </ol>
+
+        </nav>
+        <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
+          <div class="ms-md-auto pe-md-3 d-flex align-items-center">
+            <div class="input-group input-group-outline">
+              <label class="form-label">Type here...</label>
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <ul class="navbar-nav d-flex align-items-center  justify-content-end">
+            <li class="nav-item d-flex align-items-center">
+            </li>
+            <li class="mt-1">
+            </li>
+            <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
+              <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
+                <div class="sidenav-toggler-inner">
+                  <i class="sidenav-toggler-line"></i>
+                  <i class="sidenav-toggler-line"></i>
+                  <i class="sidenav-toggler-line"></i>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item px-3 d-flex align-items-center">
+              <a href="javascript:;" class="nav-link text-body p-0">
+                <i class="material-symbols-rounded fixed-plugin-button-nav">settings</i>
+              </a>
+            </li>
+            <li class="nav-item dropdown pe-3 d-flex align-items-center">
+              <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="material-symbols-rounded">notifications</i>
+              </a>
+              <ul class="dropdown-menu  dropdown-menu-end  px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton">
+                <li class="mb-2">
+                  <a class="dropdown-item border-radius-md" href="javascript:;">
+                    <div class="d-flex py-1">
+                      <div class="my-auto">
+                        <img src="../assets/img/team-2.jpg" class="avatar avatar-sm  me-3 ">
+                      </div>
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="text-sm font-weight-normal mb-1">
+                          <span class="font-weight-bold"></span> from Ahmed
+                        </h6>
+                        <p class="text-xs text-secondary mb-0">
+                          <i class="fa fa-clock me-1"></i>
+                          13 minutes ago
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <a class="dropdown-item border-radius-md" href="javascript:;">
+                    <div class="d-flex py-1">
+                      <div class="my-auto">
+                        <img src="../assets/img/team-2.jpg" class="avatar avatar-sm  me-3 ">
+                      </div>
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="text-sm font-weight-normal mb-1">
+                          <span class="font-weight-bold"> New Highest Marking Student! </span> Eyad Fathi
+                        </h6>
+                        <p class="text-xs text-secondary mb-0">
+                          <i class="fa fa-clock me-1"></i>
+                          1 day
+                        </p>
+                      </div>
+                    </div>
+                    
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item border-radius-md" href="javascript:;">
+                    <div class="d-flex py-1">
+                      <div class="avatar avatar-sm bg-gradient-secondary  me-3  my-auto">
+                        <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <title>credit-card</title>
+                          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g transform="translate(-2169.000000, -745.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                              <g transform="translate(1716.000000, 291.000000)">
+                                <g transform="translate(453.000000, 454.000000)">
+                                  <path class="color-background" d="M43,10.7482083 L43,3.58333333 C43,1.60354167 41.3964583,0 39.4166667,0 L3.58333333,0 C1.60354167,0 0,1.60354167 0,3.58333333 L0,10.7482083 L43,10.7482083 Z" opacity="0.593633743"></path>
+                                  <path class="color-background" d="M0,16.125 L0,32.25 C0,34.2297917 1.60354167,35.8333333 3.58333333,35.8333333 L39.4166667,35.8333333 C41.3964583,35.8333333 43,34.2297917 43,32.25 L43,16.125 L0,16.125 Z M19.7083333,26.875 L7.16666667,26.875 L7.16666667,23.2916667 L19.7083333,23.2916667 L19.7083333,26.875 Z M35.8333333,26.875 L28.6666667,26.875 L28.6666667,23.2916667 L35.8333333,23.2916667 L35.8333333,26.875 Z"></path>
+                                </g>
+                              </g>
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="text-sm font-weight-normal mb-1">
+                          Payment successfully completed
+                        </h6>
+                        <p class="text-xs text-secondary mb-0">
+                          <i class="fa fa-clock me-1"></i>
+                          2 days
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item d-flex align-items-center">
+              <a href="../pages/sign-in.html" class="nav-link text-body font-weight-bold px-0">
+                <i class="material-symbols-rounded">account_circle</i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of nav bar -->
+    <div class="container-fluid py-2">
+      <div class="ms-3">
+        <h3 class="mb-0 h4 font-weight-bolder">Events</h3>
+        <p class="mb-4">
+          Set up events
+        </p>
+      </div>
+      <div class="container-fluid py-4">
+        <div class="row">
+
+
+
+         <button class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#eventModal" style="background-color: #0074D9; border-color: #0074D9;">
+          <i class="material-symbols-rounded">add</i> Add Event
+        </button>
+
+<div class="modal fade" id="eventModal" tabindex="-1" aria-labelledby="eventModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="eventModalLabel">Add Event</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="eventForm">
+          <div class="mb-3">
+            <label for="eventName" class="form-label">Event Name</label>
+            <input type="text" class="form-control" id="eventName" required>
+          </div>
+          <div class="mb-3">
+            <label for="eventDate" class="form-label">Event Date</label>
+            <input type="date" class="form-control" id="eventDate" required>
+          </div>
+          <div class="mb-3">
+            <label for="eventDescription" class="form-label">Description</label>
+            <textarea class="form-control" id="eventDescription" rows="3"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="addEvent()">Add Event</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+
+let events = [];
+
+
+function addEvent() {
+  const eventName = document.getElementById("eventName").value;
+  const eventDate = document.getElementById("eventDate").value;
+  const eventDescription = document.getElementById("eventDescription").value;
+
+  if (!eventName || !eventDate) {
+    alert("Please fill in the event name and date.");
+    return;
+  }
+
+  // Add the event to the events array
+  const event = {
+    name: eventName,
+    date: new Date(eventDate),
+    description: eventDescription,
+  };
+  events.push(event);
+
+  // Close the modal
+  const modal = bootstrap.Modal.getInstance(document.getElementById("eventModal"));
+  modal.hide();
+
+  // Clear the form
+  document.getElementById("eventForm").reset();
+
+  // Regenerate the calendar to reflect the new event
+  generateCalendar(currentDate.getFullYear(), currentDate.getMonth());
+}
+
+// Function to generate the calendar with events
+function generateCalendar(year, month) {
+  const calendar = document.getElementById("calendar");
+
+  // Clear existing calendar cells
+  calendar.innerHTML = `
+    <div class="calendar-header">Sun</div>
+    <div class="calendar-header">Mon</div>
+    <div class="calendar-header">Tue</div>
+    <div class="calendar-header">Wed</div>
+    <div class="calendar-header">Thu</div>
+    <div class="calendar-header">Fri</div>
+    <div class="calendar-header">Sat</div>
+  `;
+
+  // Get the first day of the month and the number of days in the month
+  const firstDay = new Date(year, month, 1);
+  const lastDay = new Date(year, month + 1, 0);
+  const daysInMonth = lastDay.getDate();
+  const startingDay = firstDay.getDay(); // 0 (Sunday) to 6 (Saturday)
+
+  // Add empty cells for days before the first day of the month
+  for (let i = 0; i < startingDay; i++) {
+    const emptyCell = document.createElement("div");
+    emptyCell.classList.add("calendar-cell", "empty");
+    calendar.appendChild(emptyCell);
+  }
+
+  // Add cells for each day of the month
+  for (let day = 1; day <= daysInMonth; day++) {
+    const cell = document.createElement("div");
+    cell.classList.add("calendar-cell");
+    cell.textContent = day;
+
+    // Check if there are events for this day
+    const currentDate = new Date(year, month, day);
+    const dayEvents = events.filter(
+      (event) =>
+        event.date.getFullYear() === currentDate.getFullYear() &&
+        event.date.getMonth() === currentDate.getMonth() &&
+        event.date.getDate() === currentDate.getDate()
+    );
+
+    // Add events to the cell
+    dayEvents.forEach((event) => {
+      const eventElement = document.createElement("div");
+      eventElement.classList.add("calendar-event");
+      eventElement.textContent = event.name;
+      cell.appendChild(eventElement);
+    });
+
+    calendar.appendChild(cell);
+  }
+}
+
+// Render the calendar for the current month on page load
+document.addEventListener("DOMContentLoaded", () => {
+  generateCalendar(currentDate.getFullYear(), currentDate.getMonth());
+});
+</script>
+<div class="row mt-4">
+  <div class="col-12">
+    <div class="card">
+      <div class="card-body">
+        <h6 class="mb-0">Monthly Calendar</h6>
+        <p class="text-sm">Track your monthly schedule and events.</p>
+        <div class="table-responsive">
+          <div id="calendar" style="display: grid; grid-template-columns: repeat(7, 1fr); gap: 10px; padding: 10px;">
+            <!-- Calendar headers (days of the week) -->
+            <div class="calendar-header">Sun</div>
+            <div class="calendar-header">Mon</div>
+            <div class="calendar-header">Tue</div>
+            <div class="calendar-header">Wed</div>
+            <div class="calendar-header">Thu</div>
+            <div class="calendar-header">Fri</div>
+            <div class="calendar-header">Sat</div>
+
+            <!-- Calendar cells will be dynamically added here -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Function to generate the calendar
+  function generateCalendar(year, month) {
+    const calendar = document.getElementById("calendar");
+
+    // Clear existing calendar cells
+    calendar.innerHTML = `
+      <div class="calendar-header">Sun</div>
+      <div class="calendar-header">Mon</div>
+      <div class="calendar-header">Tue</div>
+      <div class="calendar-header">Wed</div>
+      <div class="calendar-header">Thu</div>
+      <div class="calendar-header">Fri</div>
+      <div class="calendar-header">Sat</div>
+    `;
+
+    // Get the first day of the month and the number of days in the month
+    const firstDay = new Date(year, month, 1);
+    const lastDay = new Date(year, month + 1, 0);
+    const daysInMonth = lastDay.getDate();
+    const startingDay = firstDay.getDay(); // 0 (Sunday) to 6 (Saturday)
+
+    // Add empty cells for days before the first day of the month
+    for (let i = 0; i < startingDay; i++) {
+      const emptyCell = document.createElement("div");
+      emptyCell.classList.add("calendar-cell", "empty");
+      calendar.appendChild(emptyCell);
+    }
+
+    // Add cells for each day of the month
+    for (let day = 1; day <= daysInMonth; day++) {
+      const cell = document.createElement("div");
+      cell.classList.add("calendar-cell");
+      cell.textContent = day;
+
+      // Add sample events (you can customize this)
+      if (day === 5) {
+        const event = document.createElement("div");
+        event.classList.add("calendar-event");
+        event.textContent = "Math Test";
+        cell.appendChild(event);
+      }
+      if (day === 12) {
+        const event = document.createElement("div");
+        event.classList.add("calendar-event");
+        event.textContent = "Science Fair";
+        cell.appendChild(event);
+      }
+      if (day === 20) {
+        const event = document.createElement("div");
+        event.classList.add("calendar-event");
+        event.textContent = "History Project Due";
+        cell.appendChild(event);
+      }
+
+      calendar.appendChild(cell);
+    }
+  }
+
+  // Render the calendar for the current month
+  const currentDate = new Date();
+  generateCalendar(currentDate.getFullYear(), currentDate.getMonth());
+</script>
+
+<style>
+  /* Calendar styling */
+  .calendar-header {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+  }
+
+  .calendar-cell {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    min-height: 80px;
+    background-color: #fff;
+  }
+
+  .calendar-cell.empty {
+    background-color: #f8f9fa;
+    border: none;
+  }
+
+  .calendar-event {
+    font-size: 12px;
+    background-color: #e3f2fd;
+    padding: 2px 5px;
+    border-radius: 3px;
+    margin-top: 5px;
+  }
+</style>
+</main>
+
+  <!-- Core JS Files -->
+  <script src="../assets/js/core/popper.min.js"></script>
+  <script src="../assets/js/core/bootstrap.min.js"></script>
+  <script src="../assets/js/plugins/perfect-scrollbar.min.js"></script>
+  <script src="../assets/js/plugins/smooth-scrollbar.min.js"></script>
+  <script src="../assets/js/plugins/chartjs.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Sample student data
+    const students = [
+      { name: "John Doe", math: 85, science: 78, history: 90 },
+      { name: "Jane Smith", math: 72, science: 68, history: 80 },
+      { name: "Ahmed Ali", math: 92, science: 88, history: 95 },
+      { name: "Emily Brown", math: 88, science: 82, history: 85 },
+      { name: "Michael Clark", math: 75, science: 70, history: 78 },
+    ];
+  
+    // Function to calculate total marks and percentage
+    const calculateTotalAndPercentage = (student) => {
+      const total = student.math + student.science + student.history;
+      const percentage = ((total / 300) * 100).toFixed(2);
+      return { total, percentage };
+    };
+  
+    // Function to render the student table
+    const renderStudentTable = () => {
+      const tableBody = document.getElementById("student-table-body");
+      tableBody.innerHTML = ""; // Clear existing rows
+  
+      students.forEach((student, index) => {
+        const { total, percentage } = calculateTotalAndPercentage(student);
+        const remarks = percentage >= 90 ? "Outstanding" : percentage >= 75 ? "Excellent" : percentage >= 60 ? "Good" : "Needs Improvement";
+  
+        const row = `
+          <tr onclick="showStudentProgress(${index})" style="cursor: pointer;">
+            <td>${student.name}</td>
+            <td>${student.math}</td>
+            <td>${student.science}</td>
+            <td>${student.history}</td>
+            <td>${total}</td>
+            <td>${percentage}%</td>
+            <td>${remarks}</td>
+          </tr>
+        `;
+        tableBody.innerHTML += row;
+      });
+    };
+  
+    // Function to show a student's progress in the charts
+    const showStudentProgress = (index) => {
+      const student = students[index];
+  
+      // Update Weekly Progress Chart
+      weeklyChart.data.datasets[0].data = [student.math, student.science, student.history];
+      weeklyChart.update();
+  
+      // Update Monthly Progress Chart (example data)
+      monthlyChart.data.datasets[0].data = [student.math, student.science, student.history, (student.math + student.science + student.history) / 3];
+      monthlyChart.update();
+  
+      // Update Student Progress Graph
+      studentProgressChart.data.datasets[0].data = [student.math, student.science, student.history];
+      studentProgressChart.update();
+    };
+  
+    // Initialize charts
+    let weeklyChart, monthlyChart, studentProgressChart;
+  
+    const initCharts = () => {
+      const ctxBars = document.getElementById('chart-bars').getContext('2d');
+      weeklyChart = new Chart(ctxBars, {
+        type: 'bar',
+        data: {
+          labels: ['Math', 'Science', 'History'],
+          datasets: [{
+            label: 'Marks',
+            data: [0, 0, 0], // Initial data for weekly progress
+            backgroundColor: ['#42A5F5', '#66BB6A', '#FF7043'],
+            borderColor: ['#1E88E5', '#43A047', '#F4511E'],
+            borderWidth: 1
+          }]
+        },
+        options: {
+          responsive: true,
+          scales: {
+            x: { beginAtZero: true },
+            y: { beginAtZero: true, max: 100 }
+          }
+        }
+      });
+  
+      const ctxLine = document.getElementById('chart-line').getContext('2d');
+      monthlyChart = new Chart(ctxLine, {
+        type: 'line',
+        data: {
+          labels: ['Math', 'Science', 'History', 'Average'],
+          datasets: [{
+            label: 'Monthly Progress',
+            data: [0, 0, 0, 0], // Initial data for monthly progress
+            fill: false,
+            borderColor: '#FFEB3B',
+            tension: 0.1
+          }]
+        },
+        options: {
+          responsive: true,
+          scales: {
+            x: { beginAtZero: true },
+            y: { beginAtZero: true, max: 100 }
+          }
+        }
+      });
+  
+      const ctxRadar = document.getElementById('chart-radar').getContext('2d');
+      studentProgressChart = new Chart(ctxRadar, {
+        type: 'radar',
+        data: {
+          labels: ['Math', 'Science', 'History'],
+          datasets: [{
+            label: 'Student Progress',
+            data: [0, 0, 0], // Initial data for student's individual progress
+            backgroundColor: 'rgba(33, 150, 243, 0.2)',
+            borderColor: '#2196F3',
+            borderWidth: 2
+          }]
+        },
+        options: {
+          responsive: true,
+          scale: {
+            ticks: { beginAtZero: true, max: 100 }
+          }
+        }
+      });
+    };
+  
+    // Call the functions to initialize the page
+    document.addEventListener("DOMContentLoaded", () => {
+      renderStudentTable();
+      initCharts();
+    });
+    const express = require('express');
+const fetch = require('node-fetch'); // To make API requests
+const app = express();
+const port = 3000;
+
+app.use(express.json()); // To parse JSON requests
+
+// Endpoint to generate personalized survey questions
+app.post('/generateSurvey', async (req, res) => {
+  const { studentName, marks } = req.body;
+
+  // Construct prompt for AI based on the student's marks and weak points
+  const prompt = createSurveyPrompt(studentName, marks);
+
+  // Call OpenAI API to generate questions
+  try {
+    const response = await fetch('https://api.openai.com/v1/completions', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer YOUR_OPENAI_API_KEY`
+      },
+      body: JSON.stringify({
+        model: 'text-davinci-003',
+        prompt: prompt,
+        max_tokens: 200
+      })
+    });
+
+    const data = await response.json();
+    const questions = data.choices[0].text.trim().split('\n');
+    res.json({ questions });
+  } catch (error) {
+    console.error('Error generating questions:', error);
+    res.status(500).send('Error generating questions');
+  }
+});
+
+// Helper function to create a prompt for AI based on marks
+function createSurveyPrompt(studentName, marks) {
+  const weakestSubject = getWeakestSubject(marks);
+  return `
+    Generate a set of 3 personalized questions based on the student's performance in the subject of ${weakestSubject}.
+    The student is named ${studentName} and their marks in various subjects are as follows:
+    Math: ${marks.math}, Science: ${marks.science}, History: ${marks.history}.
+    Provide questions that will help the student improve in ${weakestSubject}.
+    `;
+}
+
+// Function to determine the weakest subject based on marks
+function getWeakestSubject(marks) {
+  const subjects = ['math', 'science', 'history'];
+  const scores = [marks.math, marks.science, marks.history];
+  let weakestSubject = subjects[0];
+  let lowestScore = scores[0];
+
+  for (let i = 1; i < subjects.length; i++) {
+    if (scores[i] < lowestScore) {
+      weakestSubject = subjects[i];
+      lowestScore = scores[i];
+    }
+  }
+
+  return weakestSubject;
+}
+
+app.listen(port, () => {
+  console.log(`Server is running on http://localhost:${port}`);
+});
+
+  </script>
+    
+</body>
+
+</html>
